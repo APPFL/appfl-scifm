@@ -35,6 +35,17 @@ APPFL, Advanced Privacy-Preserving Federated Learning, is an open-source and hig
 
 [Documentation](http://appfl.rtfd.io/): please check out our documentation for tutorials, users guide, and developers guide.
 
+## SciFM Tutorial Demo
+
+```bash
+git clone https://github.com/APPFL/appfl-scifm.git
+cd appfl-scifm
+pip install -e ".[examples]"
+cd demo
+chmod +x run.sh
+./run.sh
+```
+
 ## Table of Contents
 
 * [Installation](#hammer_and_wrench-installation)
@@ -127,3 +138,4 @@ If you find APPFL useful for your research or development, please consider citin
 ## :trophy: Acknowledgements
 
 This material is based upon work supported by the U.S. Department of Energy, Office of Science, under contract number DE-AC02-06CH11357.
+
